@@ -44,7 +44,7 @@ print(c)
 # Write a list comprehension that creates a list of all the ages plus 10.
 
 print("Ages plus 10:")
-d = []
+
 d = [human.age + 10 for human in humans]
 print(d)
 
